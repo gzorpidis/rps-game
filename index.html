@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game!</title>
+    <link href="./styling/main.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./scripts/rps.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player-options">
+          <button class="btn rock-opt btn-grad" onclick="playGame('rock')">
+          Rock
+          </button>
+          <button class="btn paper-opt btn-grad" onclick="playGame('paper')">
+          Paper
+          </button>
+          <button class="btn scr-opt btn-grad" onclick="playGame('scissors')">
+          Scissors
+          </button>
+          
+        </div>
+        <div id='result_box'>
+          <div id='result'>
+          
+          </div>
+          <p id='machine-sel'>
+          
+          </p>
+          <p id='record'>
+       
+          </p>
+        </div>
+      </div>
+</body>
+</html>
